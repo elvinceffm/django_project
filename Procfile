@@ -1,1 +1,2 @@
-web: python3 manage.py runserver
+release: python manage.py migrate
+web: gunicorn yourprojectname.wsgi
