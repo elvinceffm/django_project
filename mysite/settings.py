@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-19v99rp2@s-=-!1%m(nn!wyt!xe4&&n02%foi9e6%l0h-viu0)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'tranquil-fjord-25074']    # heroku instead of pythonanywhere # added app's sub url
+ALLOWED_HOSTS = ['127.0.0.1', 'tranquil-fjord-25074.heroku.com']    # heroku instead of pythonanywhere # added app's sub url
 
 
 # Application definition
